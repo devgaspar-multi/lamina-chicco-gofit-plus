@@ -344,6 +344,11 @@
 }
 
 @media (max-width: 700px) {
+  .chicco-gofit-utilidade-img-01,
+  .chicco-gofit-utilidade-img-02 {
+    display: none !important;
+  }
+
   .chicco-gofit-comodidade-text-box {
     align-items: center;
   }
@@ -378,11 +383,6 @@
     max-width: 200px;
   }
 
-  .chicco-gofit-utilidade-img-01,
-  .chicco-gofit-utilidade-img-02 {
-    display: none;
-  }
-
   .chicco-gofit-utilidade-img-01-mb,
   .chicco-gofit-utilidade-img-02-mb {
     display: flex;
@@ -412,7 +412,7 @@
   }
 
   .chicco-gofit-utilidade-container {
-    padding: 21px 0px 32px 0px;
+    padding: 23px 0px 32px 0px;
   }
 
   .chicco-gofit-features-images {
